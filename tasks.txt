@@ -1,0 +1,11 @@
+//simple react 
+//show the events with hardcoded
+//try to use diff files?
+//make them pretty
+//worry about wht if the slot os taken but the prev slot is fixed
+//create hours data from the events
+//create new event
+save events/ hours in the local storage
+create for day, week, month?
+use a data model, without the BE api
+make them prettier

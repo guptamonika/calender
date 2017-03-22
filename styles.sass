@@ -1,0 +1,40 @@
+$font-stack:    Helvetica, sans-serif
+$primary-color: #333
+
+body
+  font: 100% $font-stack
+  color: $primary-color
+
+.row 
+  border-top: #efefef solid 1px
+  
+.filled
+  background: repeating-linear-gradient( 45deg, #fff, #efefef 2px, #efefef 10px, #fff 10px )
+
+.col-xs-2
+  padding: 10px
+
+.modal-open
+  .todayHours
+    opacity: .6
+    z-index: 1
+  .inner-modal
+    z-index: 2
+    position: fixed
+    width: 100%
+    margin: auto
+    height: 100%
+  .createDialog
+    width: 50%
+    margin: auto
+    padding: 20px
+    border: #efefef solid 1px
+    box-shadow: 1px 1px #efefef
+    border-radius: 2px
+    height: 250px
+    background-color: #fff
+    margin-top: 100px
+
+    .row
+      border: none
+      padding: 6px 0px
